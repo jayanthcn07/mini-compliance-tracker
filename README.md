@@ -33,8 +33,6 @@ npm install
 npm run dev
 ```
 
-
-
 ## Tradeoffs & Assumptions
 
 **Assumptions**
