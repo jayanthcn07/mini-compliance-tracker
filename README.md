@@ -4,7 +4,7 @@ A simple web app to manage compliance tasks across clients.
 Built with **React**, **Node/Express**, and **MongoDB**.
 
 ## Live Demo
-
+https://mini-compliance-tracker-1.onrender.com
 
 ## Tech Stack
 - Frontend: React + Vite
@@ -16,7 +16,7 @@ Built with **React**, **Node/Express**, and **MongoDB**.
 
 ### Prerequisites
 - Node.js 18+
-- MongoDB Atlas URI (free tier works)
+- MongoDB Atlas URI 
 
 ### Backend
 ```bash
@@ -44,4 +44,3 @@ npm run dev
 - Used MongoDB over SQL — flexible schema suits evolving compliance categories, easier to deploy on Atlas free tier
 - No auth — out of scope; would add JWT + bcrypt in production
 - Filters applied server-side (DB query) for scalability; search is client-side for simplicity
-- No pagination — acceptable for demo scale; would add cursor-based pagination for production
